@@ -1,0 +1,16 @@
+[package]
+name = "gpusolver"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+base64 = "0.21"
+metal = "0.26"
+ratatui = "0.29"
+crossterm = "0.28"
+
+[profile.release]
+lto = true
+codegen-units = 1
+opt-level = 3
