@@ -8,12 +8,12 @@ Arweave JSON keyfile using an 8-panel wordlist, leveraging the GPU to achieve
 **~8,000+ passphrase attempts per second** (M1 Max).
 
 **Default Mode**
-<img src="https://raw.githubusercontent.com/arturfromtheblock/arweave-puzzle3-metal-decoder/refs/heads/main/img/1.png?token=GHSAT0AAAAAADYEPC4PLPDC5PR25RXDDTKE2UMDMUA">
-<img src="https://raw.githubusercontent.com/arturfromtheblock/arweave-puzzle3-metal-decoder/refs/heads/main/img/2.png?token=GHSAT0AAAAAADYEPC4OS4QFLT4TKQ6LN5DO2UMDNAA">
+<img src="https://raw.githubusercontent.com/arturfromtheblock/arweave-puzzle3-metal-decoder/refs/heads/main/img/1.png">
+<img src="https://raw.githubusercontent.com/arturfromtheblock/arweave-puzzle3-metal-decoder/refs/heads/main/img/2.png">
 
 **Debug Mode**
-<img src="https://raw.githubusercontent.com/arturfromtheblock/arweave-puzzle3-metal-decoder/refs/heads/main/img/3.png?token=GHSAT0AAAAAADYEPC4OQR3S4RJJD62MQCWG2UMDNOQ">
-<img src="https://raw.githubusercontent.com/arturfromtheblock/arweave-puzzle3-metal-decoder/refs/heads/main/img/4.png?token=GHSAT0AAAAAADYEPC4OPN6DSNIKZ766FOHO2UMDNVQ">
+<img src="https://raw.githubusercontent.com/arturfromtheblock/arweave-puzzle3-metal-decoder/refs/heads/main/img/3.png">
+<img src="https://raw.githubusercontent.com/arturfromtheblock/arweave-puzzle3-metal-decoder/refs/heads/main/img/4.png">
 
 ---
 
@@ -23,7 +23,7 @@ Price: 1000 AR - around $2000
 
 Link: [Arweave Puzzle #3](https://kszeqgxezf5quhzld4nhpasyilhxphclq2peqi5mrn7utxmqhwga.arweave.net/VLJIGuTJewofKx8ad4JYQs93nEuGnkgjrIt_Sd2QPYw)
 
-<img src="https://raw.githubusercontent.com/arturfromtheblock/arweave-puzzle3-metal-decoder/refs/heads/main/puzzle3.png?token=GHSAT0AAAAAADYEPC4OGM76LJYNC6EVNYCU2UMDO4Q">
+<img src="https://raw.githubusercontent.com/arturfromtheblock/arweave-puzzle3-metal-decoder/refs/heads/main/puzzle3.png">
 
 ---
 
@@ -209,7 +209,7 @@ Everything runs client-side. **No network requests are made with your data** —
 CryptoJS is loaded from a CDN, but your passphrases and messages never leave
 your browser. Safe to use with real puzzle data.
 
-<img src="https://raw.githubusercontent.com/arturfromtheblock/arweave-puzzle3-metal-decoder/refs/heads/main/img/testtool.png?token=GHSAT0AAAAAADYEPC4OGPQKFKA5WLGRLDRI2UMDOLA">
+<img src="https://raw.githubusercontent.com/arturfromtheblock/arweave-puzzle3-metal-decoder/refs/heads/main/img/testtool.png">
 
 ---
 
