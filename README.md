@@ -19,6 +19,8 @@ Arweave JSON keyfile using an 8-panel wordlist, leveraging the GPU to achieve
 
 ## 🧩 Puzzle #3
 
+Price: 1000 AR - around $2000
+
 Link: [Arweave Puzzle #3](https://kszeqgxezf5quhzld4nhpasyilhxphclq2peqi5mrn7utxmqhwga.arweave.net/VLJIGuTJewofKx8ad4JYQs93nEuGnkgjrIt_Sd2QPYw)
 
 <img src="puzzle3.png">
@@ -69,8 +71,8 @@ Each stage runs as a dedicated Metal compute kernel, processing batches of
 The Metal shader is compiled and embedded automatically – no manual steps:
 
 ```bash
-git clone <your-repo-url>
-cd <repo>
+git clone https://github.com/arturfromtheblock/arweave-puzzle3-metal-decoder.git
+cd arweave-puzzle3-metal-decoder
 chmod +x build.sh
 ./build.sh
 ```
@@ -113,7 +115,7 @@ Invalid words are reported line-by-line in the log before the search starts.
 ### Normal mode (TUI)
 
 ```bash
-./target/release/gpusolver
+./gpusolver
 ```
 
 The TUI shows:
@@ -222,18 +224,21 @@ your browser. Safe to use with real puzzle data.
 ## 📂 Project Structure
 
 ```text
-.
-├── build.rs            # compiles metal shaders
-├── build.sh            # auto build setup
+├── build.rs            # Compiles metal shaders
+├── build.sh            # Auto build setup
 ├── Cargo.toml
-├── shaders.metal       # Metal kernels: derive / decrypt / postprocess
-├── test.html           # browser-based crypto reference tool
+├── img /
+├── LICENSE.txt
+├── message.txt         # Base64 ciphertext
+├── puzzle3.png         # Puzzle Image
+├── README.md           # Readme file
 ├── src/
 │   ├── main.rs         # CLI, wordlist validation, worker thread
-│   ├── ui.rs           # ratatui TUI
+│   ├── ui.rs           # Ratatui TUI
 │   └── gpu_decoder.rs  # Metal pipeline + 3-pass batch dispatch
-├── words.txt           # your 8-panel wordlist
-└── message.txt         # Base64 ciphertext
+├── test-tool/
+│   ├── test.html       # Browser-based crypto reference tool
+└── words.txt           # Your 8-panel wordlist
 ```
 
 ---
